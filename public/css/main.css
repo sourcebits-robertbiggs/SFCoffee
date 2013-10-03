@@ -1,0 +1,146 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background-color: #eeeeee
+	color: #424242;
+	font: normal 16pt/20pt Sentinel, 'Gill Sans', Cordova, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+/* Default Fonts */
+@font-face {
+	font-family: Sentinel;
+	src: url("../fonts/Sentinel-Book.otf") format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Sentinel;
+	src: url("../fonts/Sentinel-Bold.otf") format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 200;
+}
+nav:first-of-type {
+	background: #2e2e2e url(../images/blog-header.png) no-repeat center top;
+	height: 519px;
+}
+nav:first-of-type > h1 {
+	display: none;
+}
+#content {
+	width: 620px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+#blogs img {
+	height: 390px;
+	width: 620px;
+	background-color: #ccc;
+}
+.date {
+	text-align: center;
+	position: relative;
+	font-size: 20pt;
+	font-family: Sentinel, 'Gill Sans', Cordova, sans-serif;
+	font-weight: bold;
+	color: #767575;
+}
+.date::before {
+	content: '';
+	display: block;
+	height 1px;
+	width: 180px;
+	border-bottom: 1px solid #d9d9d9;
+	position: absolute;
+	left: 0;
+	top: 14px;
+}
+.date::after {
+	content: '';
+	display: block;
+	height 1px;
+	width: 180px;
+	border-bottom: 1px solid #d9d9d9;
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+p {
+	color: #222222;
+}
+h2 {
+	font: bold 24pt/28pt Sentinel, 'Gill Sans', Cordova, sans-serif;
+	color: #242424;
+}
+menu {
+	margin: 0;
+	padding: 10px 40px;
+}
+footer ul {
+	margin: 80px auto 0 auto;
+	width: 170px;
+}
+footer ul, footer li {
+	list-style: none;
+	padding: 0;
+}
+footer ul > li {
+	margin: 0;
+	margin-right: 20px;
+	display: inline-block;
+}
+footer ul > li:last-of-type {
+	margin-right: 0;
+}
+footer a {
+	color: #222222;
+	text-decoration: none;
+}
+footer a.selected,
+footer a.selected:hover {
+	color: #b5b5b5;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+#sfcoffe-logo-footer {
+	margin-top: 100px;
+	height: 34px;
+	background: transparent url(../images/sfcoffe-logo-footer.png) no-repeat center center;
+}
+#copyright {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12pt;
+	color: #b5b5b5;
+}
+menu {
+	width: 210px;
+	margin: 0 auto;
+}
+menu > a {
+	margin-right: 20px;
+	font-size: 12pt;
+}
+menu > a:last-of-type {
+	margin-right: 0;
+}
+#blogs  a.offsiteLink {
+	float: right;
+	margin-left: -60px;
+	display: block;
+	height: 37px;
+	width: 37px;
+	border: solid 2px #adadad;
+	background: transparent url(http://vxjs.org/sfcoffee/public/images/Link-icon.png) no-repeat center center;
+}
+#blogs  a.offsiteLink:hover {
+	background-color: #eee;
+}
+.map {
+	display: none;
+}
