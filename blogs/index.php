@@ -25,13 +25,13 @@
 
 	switch ($browser) {
 		case 'ie':
-			echo '<link rel="stylesheet" href="/sfcoffee/public/chui/chui.win-3.0.css"><script type="text/javascript" src="/sfcoffee/public/chui/chocolatechip-3.0.js"></script><script type="text/javascript" src="/sfcoffee/public/chui/chui-3.0.js"></script><script type="text/javascript" src="/sfcoffee/models/shops-mobile.js"></script><script type="text/javascript" src="/sfcoffee/public/scripts/mobile.js"></script>';
+			echo '<link rel="stylesheet" href="/sfcoffee/public/chui/chui-win-3.5.3.css"><script type="text/javascript" src="/sfcoffee/public/scripts/jquery-2.1.0.js"></script><script type="text/javascript" src="/sfcoffee/public/chui/chui-3.5.3.js"></script><script type="text/javascript" src="/sfcoffee/models/shops-mobile.js"></script><script type="text/javascript" src="/sfcoffee/public/scripts/mobile.js"></script>';
 			break;
 		case 'android':
-			echo '<link rel="stylesheet" href="/sfcoffee/public/chui/chui.android-3.0.css"><script type="text/javascript" src="/sfcoffee/public/chui/chocolatechip-3.0.js"></script><script type="text/javascript" src="/sfcoffee/public/chui/chui-3.0.js"></script><script type="text/javascript" src="/sfcoffee/models/shops-mobile.js"></script><script type="text/javascript" src="/sfcoffee/public/scripts/mobile.js"></script>';
+			echo '<link rel="stylesheet" href="/sfcoffee/public/chui/chui-android-3.5.3.css"><script type="text/javascript" src="/sfcoffee/public/scripts/jquery-2.1.0.js"></script><script type="text/javascript" src="/sfcoffee/public/chui/chui-3.5.3.js"></script><script type="text/javascript" src="/sfcoffee/models/shops-mobile.js"></script><script type="text/javascript" src="/sfcoffee/public/scripts/mobile.js"></script>';
 			break;
 		case 'ios':
-			echo '<link rel="stylesheet" href="/sfcoffee/public/chui/chui.ios-3.0.css"><script type="text/javascript" src="/sfcoffee/public/chui/chocolatechip-3.0.js"></script><script type="text/javascript" src="/sfcoffee/public/chui/chui-3.0.js"></script><script type="text/javascript" src="/sfcoffee/models/shops-mobile.js"></script><script type="text/javascript" src="/sfcoffee/public/scripts/mobile.js"></script>';
+			echo '<link rel="stylesheet" href="/sfcoffee/public/chui/chui-ios-3.5.3.css"><script type="text/javascript" src="/sfcoffee/public/scripts/jquery-2.1.0.js"></script><script type="text/javascript" src="/sfcoffee/public/chui/chui-3.5.3.js"></script><script type="text/javascript" src="/sfcoffee/models/shops-mobile.js"></script><script type="text/javascript" src="/sfcoffee/public/scripts/mobile.js"></script>';
 			break;
 
 	}

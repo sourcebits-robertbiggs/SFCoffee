@@ -6,7 +6,7 @@
 	<meta name="msapplication-tap-highlight" content="no">
 	<title>SF COFFEE: about</title>
 	<link rel="stylesheet" href="/sfcoffee/public/css/main.css">
-	<script type="text/javascript" src="/sfcoffee/public/scripts/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="/sfcoffee/public/scripts/jquery-2.1.0.js"></script>
 	<script type="text/javascript" src="/sfcoffee/models/shops-1.js"></script>
 </head>
 <body>
