@@ -2373,7 +2373,7 @@ nav > h1 {
    margin: 0 auto 0 -120px;
    position: absolute;
    left: 50%;
-   bottom: 100px;
+   bottom: 160px;
    z-index: 1000;
    background-color: rgba(0,0,0,.5);
 }
